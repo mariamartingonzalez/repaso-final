@@ -1,0 +1,7 @@
+.page-mainCont {
+    display: flex;
+    flex-direction: column;
+    @media all and (min-width:375px) {
+        flex-direction: row;
+     }
+}

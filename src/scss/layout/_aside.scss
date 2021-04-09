@@ -1,0 +1,49 @@
+aside {
+    margin-top: 33px;
+    display: flex;
+    width: 250px;
+    @media all and (max-width:375px) {
+      width: 100%;
+    }
+    @media all and (min-width:375px) {
+      flex-direction: column;
+    }
+}
+
+.avatarContainer {
+    padding-left: 20px;
+    width: 50%;
+    @media all and (min-width:375px) {
+      width: 100%;
+    }
+}
+    
+.listAside {
+    padding-left: 20px;
+    width: 50%;
+    @media all and (min-width:375px) {
+      width: 100%;
+    }
+}
+
+ul  {
+  list-style: none;
+}
+
+.section { 
+  margin: 20px 0px;
+}
+
+.category{
+  margin-bottom: 30px;;
+
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: lightgrey
+}

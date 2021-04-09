@@ -1,0 +1,7 @@
+.toolbar {
+    background-color: grey;
+    width: 60px;
+    @media all and (max-width:375px) {
+        display: none;
+      }
+}
